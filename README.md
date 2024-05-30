@@ -1,7 +1,6 @@
 # Next.js Website
 
-Este é um projeto de website desenvolvido com Next.js. O objetivo deste projeto é fornecer uma base sólida para o desenvolvimento de aplicações web modernas e escaláveis.
-
+Este é um projeto de website desenvolvido com Next.js. O objetivo deste projeto é um Trabalho pro meu TCC.
 ## Índice
 
 - [Introdução](#introdução)
