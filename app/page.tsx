@@ -42,13 +42,7 @@ export default function Home() {
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum
+                of type and scrambled it to make a type specimen book.
               </h5>
               <Link href="/login">
                 <Button className="gap-2 items-center">
@@ -116,7 +110,7 @@ export default function Home() {
                   <h2 className="font-bold text-2xl md:text-6xl lg:text-6xl xl:text-6xl">
                     6k+
                   </h2>
-                  <p className="font-bold">Produtos</p>
+                  <p className="font-bold">Produtos </p>
                 </div>
                 <div className="flex items-center justify-center flex-col">
                   <h2 className="font-bold text-2xl md:text-6xl lg:text-6xl xl:text-6xl">
@@ -132,14 +126,14 @@ export default function Home() {
             <h1 className="font-bold text-4xl md:text-6xl w-full text-center">
               Por que escolher-nos
             </h1>
-
-            <p className="font-medium text-center mt-4">
+b
+            <p className="font-medium text-center mt-4 mx-4">
               Agendamento e gestao Financeira para empreendedores com excelencia
               e servicos personalizados de qualidade superior
             </p>
           </div>
 
-          <div className="grid grid-cols-1 place-content-center md:flex lg:flex items-center justify-center mt-12 mx-9 gap-6 ">
+          <div className="grid grid-cols-1 place-items-center md:flex lg:flex items-center justify-center mt-12 mx-9 gap-6 ">
             <Card className="w-80">
               <CardHeader>
                 <SparkleIcon />

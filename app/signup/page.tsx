@@ -1,11 +1,36 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 import { Input } from "@/components/ui/input";
 import { Sparkles } from "lucide-react";
 import Link from "next/link";
+import { FormEvent, useState } from "react";
+import { toast } from "@/components/ui/use-toast";
+
+type User = {
+  email: string;
+  phone: string;
+  password: string;
+};
 
 export default function Login() {
+  const [user, setUser] = useState<User | null>(null);
+
+  /**
+   * Essa funçao retorna uma mensagem (toast) como se fosese uma autenticacao do usurio
+   * @param e
+   */
+  const cadastrarUsuario = (e: FormEvent) => {
+    // prevenir recarregamento da pagina
+    e.preventDefault();
+
+    toast({
+      title: "Conta criada com sucesso!",
+    });
+  };
+
   return (
     <main className="flex w-full h-screen overflow-y-hidden">
       <div className="flex flex-col gap-5 container p-16 justify-center">
@@ -16,12 +41,13 @@ export default function Login() {
           Comece a utilizar nossa plataforma com total liberdade apos realizar o
           cadastro em nossos serviços.
         </p>
-
-        <Input placeholder="Email" />
-        <Input placeholder="Telefone" type="text" />
-        <Input placeholder="Senha" />
+        <form className="space-y-2" onSubmit={(e) => cadastrarUsuario(e)}>
+          <Input placeholder="Email" />
+          <Input placeholder="Telefone" type="text" />
+          <Input placeholder="Senha" />
+        </form>
         <div className="flex flex-col gap-2 justify-center">
-          <Button className="gap-2">
+          <Button className="gap-2" type="submit" onClick={cadastrarUsuario}>
             <Sparkles size={16} />
             Criar minha conta!
           </Button>
