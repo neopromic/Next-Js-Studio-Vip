@@ -56,7 +56,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div className="text-2xl gap-6 flex mt-6 mx-auto w-fit p-8 bg-zinc-300 rounded-lg  ">
+            <div className="text-2xl gap-6 flex mt-6 mx-auto w-fit p-8 dark:bg-zinc-950 border rounded-lg  ">
               <Select>
                 <SelectTrigger className="flex-1 md:w-[280px]">
                   <SelectValue placeholder="Localizacao" />
