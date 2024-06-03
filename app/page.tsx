@@ -56,7 +56,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div className="mt-20  text-2xl gap-6 flex mt-6 mx-auto w-fit p-8 bg-zinc-300 rounded-lg  ">
+            <div className="text-2xl gap-6 flex mt-6 mx-auto w-fit p-8 bg-zinc-300 rounded-lg  ">
               <Select>
                 <SelectTrigger className="flex-1 md:w-[280px]">
                   <SelectValue placeholder="Localizacao" />
@@ -189,7 +189,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p className="w-40">
-                  {" "} 
+                  {" "}
                   is simply dummy text of the printing and typesetting industry.
                   Lorem Ipsum has been the industry's standard dummy text ever
                   since the 1500s
