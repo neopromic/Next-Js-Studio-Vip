@@ -32,7 +32,7 @@ export default function Login() {
           </Link>
         </div>
       </div>
-      <div className="bg-zinc-900 hidden justify-center items-center flex-col font-bold md:flex md:h-screen ">
+      <div className="bg-zinc-900 hidden justify-center items-center flex-col font-bold md:flex md:h-screen md:w-full">
         <h1 className="text-5xl text-white text-center">
           Prepare-se
           <span className="text-violet-300"> pra uma nova jornada</span>
