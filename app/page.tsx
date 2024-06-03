@@ -9,7 +9,7 @@ import {
   SelectItem,
 } from "@/components/ui/select";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { SparkleIcon, StarsIcon } from "lucide-react";
+import { SparkleIcon, Sparkles, StarsIcon } from "lucide-react";
 import {
   Carousel,
   CarouselContent,
@@ -51,7 +51,10 @@ export default function Home() {
                 Lorem Ipsum
               </h5>
               <Link href="/login">
-                <Button className="w-28"> Login </Button>
+                <Button className="gap-2 items-center">
+                  <Sparkles size={16} />
+                  Inicie sua jornada!
+                </Button>
               </Link>
             </div>
           </div>
