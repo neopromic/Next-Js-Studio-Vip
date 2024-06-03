@@ -24,7 +24,12 @@ export default function RootLayout({
         enableSystem
         disableTransitionOnChange
       >
-        <body className={inter.className}>{children}</body>
+
+        <body className={inter.className}>
+          <Header/>
+          {children}
+        
+        </body>
       </ThemeProvider>
     </html>
   );
