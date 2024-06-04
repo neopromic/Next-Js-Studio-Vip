@@ -77,8 +77,9 @@ export default function Home() {
                   <SelectItem value="servicos_outros">Outros</SelectItem>
                 </SelectContent>
               </Select>
-
+              <Link href={"/products"}>
               <Button className="md:w-80">Buscar</Button>
+              </Link>
             </div>
           </div>
           <div className="grid mt-32 mx-9 grid-cols-1 md:grid-cols-2">
