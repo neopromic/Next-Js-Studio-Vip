@@ -45,7 +45,7 @@ export default function Home() {
                 of type and scrambled it to make a type specimen book.
               </h5>
               <Link href="/login">
-                <Button className="gap-2 items-center">
+                <Button className="gap-2 mt-4 items-center">
                   <Sparkles size={16} />
                   Inicie sua jornada!
                 </Button>
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div className="text-2xl gap-6 flex mt-6 mx-auto w-fit p-8 dark:bg-zinc-950 border rounded-lg  ">
+            <div className="text-2xl gap-6 flex mt-6 mx-auto w-fit p-3 md:p-8 dark:bg-zinc-950 border rounded-lg  ">
               <Select>
                 <SelectTrigger className="flex-1 md:w-[280px]">
                   <SelectValue placeholder="Localizacao" />
@@ -101,19 +101,19 @@ export default function Home() {
               </p>
               <div className="flex gap-7 mt-8 justify-center items-center md:justify-start">
                 <div className="flex items-center justify-center flex-col ">
-                  <h2 className="font-bold text-2xl md:text-6xl lg:text-6xl xl:text-6xl">
+                  <h2 className="font-bold text-2xl md:text-4xl ">
                     8k+
                   </h2>
                   <p className="font-bold">Clientes</p>
                 </div>
                 <div className="flex items-centerjustify-center flex-col">
-                  <h2 className="font-bold text-2xl md:text-6xl lg:text-6xl xl:text-6xl">
+                  <h2 className="font-bold text-2xl md:text-4xl ">
                     6k+
                   </h2>
                   <p className="font-bold">Produtos </p>
                 </div>
                 <div className="flex items-center justify-center flex-col">
-                  <h2 className="font-bold text-2xl md:text-6xl lg:text-6xl xl:text-6xl">
+                  <h2 className="font-bold text-2xl md:text-4xl ">
                     2k+
                   </h2>
                   <p className="font-bold">Empresas</p>
@@ -313,7 +313,7 @@ export default function Home() {
             </h1>
           </div>
 
-          <div className="flex justify-center gap-3 mt-4">
+          <div className="flex justify-center gap-3 my-4">
             <SearchInputWithIcon>
               <Mail />
             </SearchInputWithIcon>
