@@ -1,7 +1,6 @@
 import React from 'react';
-import { Search } from 'lucide-react'; // Importa o ícone de pesquisa da biblioteca lucide-react
 import { Input } from "@/components/ui/input";
-import { Mail } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
 const SearchInputWithIcon = ({children}: {children: React.ReactNode}, text: string, className?: string) => {
   return (

@@ -8,6 +8,7 @@ import { Sparkles } from "lucide-react";
 import Link from "next/link";
 import { FormEvent, useState } from "react";
 import { toast } from "@/components/ui/use-toast";
+import { set } from "react-hook-form";
 
 type User = {
   email: string;
@@ -16,8 +17,6 @@ type User = {
 };
 
 export default function Login() {
-  const [user, setUser] = useState<User | null>(null);
-
   /**
    * Essa funçao retorna uma mensagem (toast) como se fosese uma autenticacao do usurio
    * @param e
@@ -25,16 +24,15 @@ export default function Login() {
   const cadastrarUsuario = (e: FormEvent) => {
     // prevenir recarregamento da pagina
     e.preventDefault();
-
     toast({
-      title: "Conta criada com sucesso!",
+      description: "Conta criada com sucesso!",
     });
   };
 
   return (
     <main className="flex w-full h-screen overflow-y-hidden">
       <div className="flex flex-col gap-5 container p-16 justify-center">
-        <h1 className="font-bold flex justify-center text-5xl tracking-tighter leading-none">
+        <h1 className="font-bold flex justify-center text-3xl tracking-tighter leading-none text-center md:text-5xl">
           Cadastre-se!
         </h1>
         <p className="text-muted-foreground leading-relaxed text-center">

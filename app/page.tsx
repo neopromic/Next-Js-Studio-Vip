@@ -122,11 +122,11 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-12 flex justify-center flex-col">
+          <div className="mt-24 flex justify-center flex-col">
             <h1 className="font-bold text-4xl md:text-6xl w-full text-center">
               Por que escolher-nos
             </h1>
-b
+
             <p className="font-medium text-center mt-4 mx-4">
               Agendamento e gestao Financeira para empreendedores com excelencia
               e servicos personalizados de qualidade superior
@@ -307,9 +307,9 @@ b
             </Carousel>
           </div>
 
-          <div className="flex justify-center mt-10">
-            <h1 className="font-bold text-2xl">
-              Voce tem alguma pergunta ? Obtenha ajuda nossa{" "}
+          <div className="flex justify-center px-6 mt-10">
+            <h1 className="font-bold text-2xl text-center">
+              Alguma duvida? Nos te ajudamos!
             </h1>
           </div>
 

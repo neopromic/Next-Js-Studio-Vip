@@ -1,9 +1,7 @@
-
 import { ModeToggle } from "@/components/ui/mode-toggle";
 import Link from "next/link";
-import { Input } from "./ui/input";
-import { Search } from 'lucide-react';
-import SearchInputWithIcon from '@/components/Input-Icon'
+import { Search } from "lucide-react";
+import SearchInputWithIcon from "@/components/Input-Icon";
 import { Button } from "./ui/button";
 
 export default function Header() {
@@ -17,13 +15,15 @@ export default function Header() {
       <nav className="flex gap-5">
         <div className="hidden md:flex">
           <SearchInputWithIcon>
-            <Search/>
+            <Search />
           </SearchInputWithIcon>
         </div>
-          <div className="flex imt gap-5">
+        <div className="flex imt gap-5">
           <ModeToggle />
-          <Button variant={"outline"}>Login</Button>
-          </div>
+          <Link href={"/login"}>
+            <Button variant={"outline"}>Login</Button>
+          </Link>
+        </div>
       </nav>
     </header>
   );
