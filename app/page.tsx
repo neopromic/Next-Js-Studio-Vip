@@ -78,7 +78,7 @@ export default function Home() {
                 </SelectContent>
               </Select>
               <Link href={"/products"}>
-              <Button className="md:w-80">Buscar</Button>
+                <Button className="md:w-80">Buscar</Button>
               </Link>
             </div>
           </div>
@@ -102,21 +102,15 @@ export default function Home() {
               </p>
               <div className="flex gap-7 mt-8 justify-center items-center md:justify-start">
                 <div className="flex items-center justify-center flex-col ">
-                  <h2 className="font-bold text-2xl md:text-4xl ">
-                    8k+
-                  </h2>
+                  <h2 className="font-bold text-2xl md:text-4xl ">8k+</h2>
                   <p className="font-bold">Clientes</p>
                 </div>
-                <div className="flex items-centerjustify-center flex-col">
-                  <h2 className="font-bold text-2xl md:text-4xl ">
-                    6k+
-                  </h2>
+                <div className="flex items-center justify-center flex-col">
+                  <h2 className="font-bold text-2xl md:text-4xl ">6k+</h2>
                   <p className="font-bold">Produtos </p>
                 </div>
                 <div className="flex items-center justify-center flex-col">
-                  <h2 className="font-bold text-2xl md:text-4xl ">
-                    2k+
-                  </h2>
+                  <h2 className="font-bold text-2xl md:text-4xl ">2k+</h2>
                   <p className="font-bold">Empresas</p>
                 </div>
               </div>
